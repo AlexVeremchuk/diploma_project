@@ -50,9 +50,9 @@ data_leakage_detection/
 
 ├── utils.py             # Загрузка данных, проверка размеров
 
-├── metrics.py           # Расчёт метрик (accuracy, precision, recall)
+├── metrics.py           # Расчёт метрик
 
-├── visualization.py     # Визуализация результатов (графики)
+├── visualization.py     # Визуализация результатов 
 
 ├── main.py              # Точка входа для запуска
 
@@ -64,7 +64,7 @@ data_leakage_detection/
 
 │   └── test_utils.py
 
-└── synthetic_data.json  # Пример данных (если нет, можно сгенерировать)
+└── synthetic_data.json  
 
    ## Установка
 1. Клонируйте репозиторий:
