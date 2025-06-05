@@ -1,11 +1,29 @@
-This Python module provides a comprehensive toolkit for detecting and analyzing data leakage in machine learning pipelines. It implements statistical tests and visualization methods to identify four critical types of leakage:
+Фреймворк представляет собой комплексный инструментарий для обнаружения и анализа утечек данных в процессах машинного обучения. Система выявляет четыре критических типа утечек с помощью статистических тестов и визуализации:
 
-Overlap Leakage: Duplicate samples between training and test sets.
+Пересечение данных (Overlap Leakage)
+Обнаруживает дубликаты образцов между обучающей и тестовой выборками с использованием критерия Колмогорова-Смирнова.
 
-Multi-test Leakage: Data appearing in multiple cross-validation folds.
+Множественное тестирование (Multi-test Leakage)
+Контролирует появление одних и тех же данных в нескольких фолдах кросс-валидации.
 
-Preprocessing Leakage: Contamination from global scaling/normalization.
+Утечки предобработки (Preprocessing Leakage)
+Выявляет ошибки нормализации/масштабирования при сравнении статистик распределений.
 
-Target Leakage: Features correlated with the target variable.
+Целевая утечка (Target Leakage)
+Находит признаки, имеющие недопустимо высокую корреляцию с целевой переменной.
 
-Designed for researchers and practitioners, the module quantifies leakage impact using metrics (Accuracy, Precision, Recall, F2-Score) and generates diagnostic visualizations.
+Ключевые возможности:
+
+Автоматическая генерация диагностических отчетов
+
+Расчет метрик качества (Accuracy, Precision, Recall, F2-Score)
+
+Визуализация результатов в формате:
+
+Столбчатые диаграммы для p-значений и корреляций
+
+Тепловые карты отклонений статистик
+
+Гистограммы распределений
+
+Поддержка как синтетических, так и реальных данных
