@@ -41,17 +41,29 @@
       
    ## Архитектура проекта
 data_leakage_detection/
+
 │
+
 ├── __init__.py
+
 ├── detector.py          # Класс DataLeakageDetector + методы детекции
+
 ├── utils.py             # Загрузка данных, проверка размеров
+
 ├── metrics.py           # Расчёт метрик (accuracy, precision, recall)
+
 ├── visualization.py     # Визуализация результатов (графики)
+
 ├── main.py              # Точка входа для запуска
+
 ├── tests/               # Тесты
+
 │   ├── test_detector.py
+
 │   ├── test_metrics.py
+
 │   └── test_utils.py
+
 └── synthetic_data.json  # Пример данных (если нет, можно сгенерировать)
 
    ## Установка
