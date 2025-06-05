@@ -47,4 +47,6 @@
 
 ```bash
 git clone https://github.com/yourusername/adversarial_framework.git  
-cd adversarial_framework  
+cd adversarial_framework
+
+pip install pandas numpy matplotlib scikit-learn jupyter
