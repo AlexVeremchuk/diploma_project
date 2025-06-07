@@ -73,7 +73,7 @@ cd adversarial_framework
 ```
 2. Установка зависимости:
 ```bash
-pip install pandas numpy matplotlib scikit-learn jupyter
+pip install -r requirements.txt
 ```
    ## Запуск
 
