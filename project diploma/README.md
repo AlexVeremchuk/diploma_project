@@ -68,7 +68,7 @@ data_leakage_detection/
 1. Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/yourusername/adversarial_framework.git  
+git clone https://github.com/yourusername/data_leakage_detector 
 cd adversarial_framework
 ```
 2. Установка зависимости:
