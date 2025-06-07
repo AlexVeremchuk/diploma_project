@@ -69,7 +69,8 @@ data_leakage_detection/
 
 ```bash
 git clone https://github.com/yourusername/diploma_project.git
-cd adversarial_framework
+cd diploma_project
+
 ```
 2. Установка зависимости:
 ```bash
