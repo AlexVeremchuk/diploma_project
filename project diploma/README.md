@@ -76,3 +76,12 @@ cd adversarial_framework
 2. Установка зависимости:
 ```bash
 pip install pandas numpy matplotlib scikit-learn jupyter
+```
+   ## Запуск
+
+
+   ## Конфигурация проекта
+
+
+
+  ## Пример применения
