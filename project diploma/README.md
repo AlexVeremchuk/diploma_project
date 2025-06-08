@@ -117,3 +117,5 @@ overlap_pvalues.png — p-значения для пересечений.
 feature_correlations.png — корреляции с целевой переменной.
 
 preprocessing_diff_heatmap.png — различия в статистиках.
+
+## Ограничения
